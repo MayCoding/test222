@@ -1,12 +1,10 @@
 name: Execute Lambda Python File on SUMMARY.md Change
-
 on:
   push:
     paths:
       - "SUMMARY.md"
     branches:
       - main
-
 jobs:
   execute_lambda:
     runs-on: ubuntu-latest
